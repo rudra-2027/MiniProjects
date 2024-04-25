@@ -1,3 +1,0 @@
-menu to buy using dict name and price per 
-user to buy example item qunatinty and print total
-user card will price manage 
