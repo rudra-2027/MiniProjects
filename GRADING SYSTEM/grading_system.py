@@ -11,12 +11,12 @@ def calculate_grade(score):
         return 'F'
 
 def save_grade_to_file(student_name, score, grade):
-    with open('grades.txt', 'a') as file:
+    with open('grades1.txt', 'a') as file:
         file.write(f"{student_name}: Score = {score}, Grade = {grade}\n")
 
 def view_records():
     try:
-        with open('grades.txt', 'r') as file:
+        with open('grades1.txt', 'r') as file:
             print("Student Records:")
             print(file.read())
     except FileNotFoundError:
